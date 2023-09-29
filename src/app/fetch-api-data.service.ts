@@ -158,6 +158,12 @@ export class UserRegistrationServer {
       .pipe(map(this.extractResponseData), catchError(this.handleError));
   }
 
+  // Non-typed response extraction
+  private extractResponseData(res: any): any {
+    const body = res;
+    return body || {};
+  }
+
   private handleError(error: HttpErrorResponse): any {
     if (error.error instanceof ErrorEvent) {
       console.error('Some error occurred:', error.error.message);
