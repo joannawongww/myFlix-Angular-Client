@@ -1,0 +1,23 @@
+.container {
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: system-ui;
+  font-size: 32px;
+  color: #38040e;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn {
+  margin-right: 10px;
+  background-color: black;
+}

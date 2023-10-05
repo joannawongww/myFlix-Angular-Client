@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<div>
+  <app-nav-bar></app-nav-bar>
+  <div>
+    <h1 class="title">Profile Page</h1>
+    <div class="grid-container">
+      <div class="grid-profile">
+        <h2>My Profile Details</h2>
+        <p>Username: {{user.Username}}</p>
+        <p>Email: {{user.Email}}</p>
+        <p></p>
+      </div>
+      <mat-card>
+        <mat-card-content>
+          <h2>Update Profile</h2>
+          <form class="profile-form">
+            <mat-form-field>
+              <input matInput [(ngModel)]="userData.Username" placeholder="Username" type="text" name="Username"
+                required>
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+              <input matInput [(ngModel)]="userData.Password" type="password" placeholder="Password" name="Password"
+                required>
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+              <input matInput [(ngModel)]="userData.Email" type="email" placeholder="Email" name="Email" required>
+            </mat-form-field>
+            <mat-card-actions>
+              <button mat-raised-button (click)="updateUser()" color="primary">
+                Update User
+              </button>
+              <button mat-raised-button (click)="deleteUser()" color="warn">
+                Delete User
+              </button>
+            </mat-card-actions>
+          </form>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>
