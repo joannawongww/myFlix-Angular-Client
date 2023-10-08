@@ -1,22 +1,27 @@
 # MyFlixAngularClient
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
 
 ## Description
+
 myFlix app provides information about different movies including description, director and genre.  
 User able to create account to add movies into their favorite list.
 
-<img src="/assets/app.jpg" alt ="A screenshot of Chat App" width="200">
+<img src="img/welcome-page.jpg" alt ="Screenshot of welcome view" width="200">
+<img src="img/movies-view.jpg" alt ="Screenshot of movies view" width="200">
 
 ## Features
-- Welcome view where users able to log in or register a new account.  
-- Movies view which user able to view all movies after authentication.  
-- Button where user able to add movies to their list of favorites.  
+
+- Welcome view where users able to log in or register a new account.
+- Movies view which user able to view all movies after authentication.
+- Button where user able to add movies to their list of favorites.
 
 ## Dependencies
+
 - Angular
 - Reactivex/Rxjs
 - MongoDB database
-- TypeDoc  
+- TypeDoc
 
 ## Running the app
 
