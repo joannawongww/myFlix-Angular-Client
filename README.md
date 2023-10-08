@@ -7,8 +7,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 myFlix app provides information about different movies including description, director and genre.  
 User able to create account to add movies into their favorite list.
 
-<img src="img/welcome-page.jpg" alt ="Screenshot of welcome view" width="200">
-<img src="img/movies-view.jpg" alt ="Screenshot of movies view" width="200">
+<p float="left">
+<img src="img/welcome-page.jpg" alt ="Screenshot of welcome view" width="400">
+<img src="img/movies-view.jpg" alt ="Screenshot of movies view" width="400">
+</p>
 
 ## Features
 
